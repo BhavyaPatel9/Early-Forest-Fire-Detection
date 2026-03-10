@@ -1,6 +1,6 @@
 # 🌲🔥 Early Forest Fire Detection System (IoT + UAV + AI)
 
-![Project Banner](path/to/banner_image.png)
+
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-ESP32%20%7C%20Raspberry%20Pi-green)](https://www.espressif.com/)
 [![AI Model](https://img.shields.io/badge/AI-YOLOv8-orange)](https://github.com/ultralytics/ultralytics)
@@ -11,15 +11,15 @@ The **Early Forest Fire Detection System** is a hybrid safety architecture desig
 
 ### Key Features
 * **Multi-Sensor IoT Nodes:** Real-time monitoring of Temperature, Humidity, Smoke (MQ-2), and Flame (IR).
-* [cite_start]**Long-Range Communication:** Utilizes **ESP-NOW** protocol for efficient, grid-based sensor communication without reliance on cellular networks[cite: 53, 417].
-* [cite_start]**Cloud Dashboard:** Centralized monitoring via Arduino IoT Cloud with threshold-based alerting logic[cite: 54, 446].
+* **Long-Range Communication:** Utilizes **ESP-NOW** protocol for efficient, grid-based sensor communication without reliance on cellular networks.
+* **Cloud Dashboard:** Centralized monitoring via Arduino IoT Cloud with threshold-based alerting logic.
 * **Autonomous Verification:** Automatically dispatches a UAV to alert coordinates upon threshold breach.
-* [cite_start]**AI-Powered Detection:** Onboard Raspberry Pi runs a custom-trained **YOLOv8-n** model to visually confirm fire/smoke presence[cite: 117, 522].
-* [cite_start]**Hexagonal Scanning:** Drone performs a multi-angle hexagonal scan of the target area to overcome canopy occlusion[cite: 501].
+* **AI-Powered Detection:** Onboard Raspberry Pi runs a custom-trained **YOLOv8-n** model to visually confirm fire/smoke presence.
+* **Hexagonal Scanning:** Drone performs a multi-angle hexagonal scan of the target area to overcome canopy occlusion.
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The system operates in a **Two-Stage Verification Pipeline**:
 1.  **Stage 1 (Sensing):** Ground nodes detect environmental anomalies and trigger a "Potential Fire" alert via the Cloud.
@@ -28,7 +28,7 @@ The system operates in a **Two-Stage Verification Pipeline**:
 ![System Block Diagram](path/to/system_architecture_diagram.png)
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 This repository is organized as follows:
 
